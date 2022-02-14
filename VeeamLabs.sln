@@ -3,9 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Basic CSharp And CLR", "1 Basic CSharp And CLR", "{08031FED-7D1B-439B-8E90-14E7799B977E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Multithreading", "2 Multithreading", "{FAAAD986-7CF5-4015-A6BE-8E85C7B6472C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Architecture And Systems Design", "3 Architecture And Systems Design", "{ED3FD847-BAD5-4FDD-AA80-79C168514817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Algorithms And Data Structures", "4 Algorithms And Data Structures", "{852CF968-81A7-4401-9161-77C55189BC6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Working With Data", "5 Working With Data", "{6CBC6ED9-1F82-4491-9291-1EFB3AF0CBE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 .Net technologies", "6 .Net technologies", "{14F949AC-6174-411C-81C6-8D5CD9F0AD92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 Team Development", "7 Team Development", "{2B270673-5B06-4FF8-BC38-0C593A17FA10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 Other", "8 Other", "{2ABA47C2-689C-4329-A043-1E176D33ED3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1. Type Basics", "1.1. Type Basics", "{4DADFAA0-308C-400D-8578-EBB8751A606E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2. Events and Delegates", "1.2. Events and Delegates", "{C0A52D24-FCB8-4199-B77E-523881764B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3. Collections and LINQ", "1.3. Collections and LINQ", "{C5C06149-5BE0-4FC1-8079-BAFDF87DA59E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4. Rows and Exceptions", "1.4. Rows and Exceptions", "{99EFFE99-462F-43FF-886C-4217B6F64091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5. CLR Memory management and garbage collection", "1.5. CLR Memory management and garbage collection", "{A8E8C325-2BDF-4A1F-9DE5-940F523C15CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.6. CLR Code execution, hosting, reflection", "1.6. CLR Code execution, hosting, reflection", "{2BD7BBEB-CBC7-4942-A667-D799100D2270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.7. CSharp. Network programming", "1.7. CSharp. Network programming", "{DBB5D6F0-46EF-4BFA-9C04-96C2835F2FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableType", "ImmutableType\ImmutableType.csproj", "{C193AE49-DC30-4DF2-A202-0CDA02F974A7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C193AE49-DC30-4DF2-A202-0CDA02F974A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C193AE49-DC30-4DF2-A202-0CDA02F974A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C193AE49-DC30-4DF2-A202-0CDA02F974A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C193AE49-DC30-4DF2-A202-0CDA02F974A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DADFAA0-308C-400D-8578-EBB8751A606E} = {08031FED-7D1B-439B-8E90-14E7799B977E}
+		{C0A52D24-FCB8-4199-B77E-523881764B4F} = {08031FED-7D1B-439B-8E90-14E7799B977E}
+		{C5C06149-5BE0-4FC1-8079-BAFDF87DA59E} = {08031FED-7D1B-439B-8E90-14E7799B977E}
+		{99EFFE99-462F-43FF-886C-4217B6F64091} = {08031FED-7D1B-439B-8E90-14E7799B977E}
+		{A8E8C325-2BDF-4A1F-9DE5-940F523C15CB} = {08031FED-7D1B-439B-8E90-14E7799B977E}
+		{2BD7BBEB-CBC7-4942-A667-D799100D2270} = {08031FED-7D1B-439B-8E90-14E7799B977E}
+		{DBB5D6F0-46EF-4BFA-9C04-96C2835F2FF5} = {08031FED-7D1B-439B-8E90-14E7799B977E}
+		{C193AE49-DC30-4DF2-A202-0CDA02F974A7} = {4DADFAA0-308C-400D-8578-EBB8751A606E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E01B8DEF-982A-4521-8333-31C3CDC2065D}
